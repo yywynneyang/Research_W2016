@@ -1,0 +1,58 @@
+Start testing: Feb 03 16:13 MST
+----------------------------------------------------------
+1/4 Testing: test_Research
+1/4 Test: test_Research
+Command: "/bin/sh" "/usr/src/gnuradio/gnuradio/gr-Research/build/lib/test_Research_test.sh"
+Directory: /usr/src/gnuradio/gnuradio/gr-Research/build/lib
+"test_Research" start time: Feb 03 16:13 MST
+Output:
+----------------------------------------------------------
+...
+
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Passed.
+"test_Research" end time: Feb 03 16:13 MST
+"test_Research" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/4 Testing: qa_new_qpsk_demod_cb
+2/4 Test: qa_new_qpsk_demod_cb
+Command: "/bin/sh" "/usr/src/gnuradio/gnuradio/gr-Research/build/python/qa_new_qpsk_demod_cb_test.sh"
+Directory: /usr/src/gnuradio/gnuradio/gr-Research/build/python
+"qa_new_qpsk_demod_cb" start time: Feb 03 16:13 MST
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"qa_new_qpsk_demod_cb" end time: Feb 03 16:13 MST
+"qa_new_qpsk_demod_cb" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/4 Testing: qa_rotation_cc
+3/4 Test: qa_rotation_cc
+Command: "/bin/sh" "/usr/src/gnuradio/gnuradio/gr-Research/build/python/qa_rotation_cc_test.sh"
+Directory: /usr/src/gnuradio/gnuradio/gr-Research/build/python
+"qa_rotation_cc" start time: Feb 03 16:13 MST
+Output:
+----------------------------------------------------------
+  File "/usr/src/gnuradio/gnuradio/gr-Research/python/qa_rotation_cc.py", line 24
+    import Research as 
+                      ^
+SyntaxError: invalid syntax
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Failed.
+"qa_rotation_cc" end time: Feb 03 16:13 MST
+"qa_rotation_cc" time elapsed: 00:00:00
+----------------------------------------------------------
+
