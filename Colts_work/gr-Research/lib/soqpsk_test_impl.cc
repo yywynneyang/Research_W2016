@@ -137,8 +137,8 @@ namespace gr {
         int samples_per_buffer2 = samples_per_buffer/2;
 
         // Initialize the states
-        S4Di = zeros(18,1);
-        S4Dq = zeros(18,1);
+        gr_vector_int S4Di = (18,0);
+        gr_vector_int S4Dq = (18,0);
 
         double FX1 = 0;
         double FX2 = 0;
@@ -178,7 +178,7 @@ namespace gr {
         // End initialize the states
 
 
-        double ri1,rq1,ri,rq,x,y,xr,yr;
+        double ri1,rq1,ri,rq,x,y,xr,yr,et,xi,yi,xi1,yi1,xi2,yi2,v1,v2,tempFx,tempFy,empFy,ep,pk,aout,w,d0,d1,bk,bits,vt,vp;
         int downsample = 2;
         //filtering happens here
         for( int i = 0 ; i < samples_per_buffer ; i+downsample) {
@@ -189,15 +189,15 @@ namespace gr {
             ri = real(r(sample_idx));
             rq = imag(r(sample_idx));
 
-            x = DF(1) * (ri1 + S4Di(18)) ...
-                + DF(2) * (ri + S4Di(17)) ...
-                + DF(3) * (S4Di(1) + S4Di(16)) ...
-                + DF(4) * (S4Di(2) + S4Di(15)) ...
-                + DF(5) * (S4Di(3) + S4Di(14)) ...
-                + DF(6) * (S4Di(4) + S4Di(13)) ...
-                + DF(7) * (S4Di(5) + S4Di(12)) ...
-                + DF(8) * (S4Di(6) + S4Di(11)) ...
-                + DF(9) * (S4Di(7) + S4Di(10)) ...
+            x = DF(1) * (ri1 + S4Di(18))
+                + DF(2) * (ri + S4Di(17))
+                + DF(3) * (S4Di(1) + S4Di(16))
+                + DF(4) * (S4Di(2) + S4Di(15))
+                + DF(5) * (S4Di(3) + S4Di(14))
+                + DF(6) * (S4Di(4) + S4Di(13))
+                + DF(7) * (S4Di(5) + S4Di(12))
+                + DF(8) * (S4Di(6) + S4Di(11))
+                + DF(9) * (S4Di(7) + S4Di(10))
                 + DF(10) * (S4Di(8) + S4Di(9));
 
             y = DF(1) * (rq1 + S4Dq(18))
@@ -216,7 +216,7 @@ namespace gr {
             yr = -x*STHETA + y*CTHETA;
 
             if(STROBE) {
-                GR_LOG_DEBUG(d_debug_logger, "Strobe on");
+                //GR_LOG_DEBUG(d_debug_logger, "Strobe on");
                 et = 0;
                 ep = 0;
             }
@@ -254,7 +254,7 @@ namespace gr {
                 // output
                 aout(pk) = xi2 + 1i*yi1;
                 pk = pk + 1;
-                if ()xi2 > 0) {
+                if (xi2 > 0) {
                     d0 = 1;
                 }
                 else {
