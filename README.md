@@ -1,4 +1,3 @@
-# Test_Awesome
+# Research_W2016
 
-This is our readme
-...
+Testing repository for developing modules within GNURadio.  Will be documented as project progresses.
