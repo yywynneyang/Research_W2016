@@ -95,28 +95,28 @@ lib/CMakeFiles/test-Research.dir/qa_Research.cc.o.provides: lib/CMakeFiles/test-
 
 lib/CMakeFiles/test-Research.dir/qa_Research.cc.o.provides.build: lib/CMakeFiles/test-Research.dir/qa_Research.cc.o
 
-lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o: lib/CMakeFiles/test-Research.dir/flags.make
-lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o: ../lib/qa_soqpsk_test.cc
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: lib/CMakeFiles/test-Research.dir/flags.make
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: ../lib/qa_soqpsk_demod.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /usr/src/gnuradio/gnuradio/gr-Research/build/CMakeFiles $(CMAKE_PROGRESS_3)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o"
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o -c /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_test.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o"
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o -c /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_demod.cc
 
-lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.i"
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_test.cc > CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.i
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.i"
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_demod.cc > CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.i
 
-lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.s"
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_test.cc -o CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.s
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.s"
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_demod.cc -o CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.s
 
-lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o.requires:
-.PHONY : lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o.requires
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o.requires:
+.PHONY : lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o.requires
 
-lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o.provides: lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o.requires
-	$(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o.provides.build
-.PHONY : lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o.provides
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o.provides: lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o.provides.build
+.PHONY : lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o.provides
 
-lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o.provides.build: lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o.provides.build: lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o
 
 lib/CMakeFiles/test-Research.dir/qa_multiply_c_ff.cc.o: lib/CMakeFiles/test-Research.dir/flags.make
 lib/CMakeFiles/test-Research.dir/qa_multiply_c_ff.cc.o: ../lib/qa_multiply_c_ff.cc
@@ -191,7 +191,7 @@ lib/CMakeFiles/test-Research.dir/qa_new_qpsk_demod_cb.cc.o.provides.build: lib/C
 test__Research_OBJECTS = \
 "CMakeFiles/test-Research.dir/test_Research.cc.o" \
 "CMakeFiles/test-Research.dir/qa_Research.cc.o" \
-"CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o" \
+"CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o" \
 "CMakeFiles/test-Research.dir/qa_multiply_c_ff.cc.o" \
 "CMakeFiles/test-Research.dir/qa_rotation_cc.cc.o" \
 "CMakeFiles/test-Research.dir/qa_new_qpsk_demod_cb.cc.o"
@@ -201,7 +201,7 @@ test__Research_EXTERNAL_OBJECTS =
 
 lib/test-Research: lib/CMakeFiles/test-Research.dir/test_Research.cc.o
 lib/test-Research: lib/CMakeFiles/test-Research.dir/qa_Research.cc.o
-lib/test-Research: lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o
+lib/test-Research: lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o
 lib/test-Research: lib/CMakeFiles/test-Research.dir/qa_multiply_c_ff.cc.o
 lib/test-Research: lib/CMakeFiles/test-Research.dir/qa_rotation_cc.cc.o
 lib/test-Research: lib/CMakeFiles/test-Research.dir/qa_new_qpsk_demod_cb.cc.o
@@ -226,7 +226,7 @@ lib/CMakeFiles/test-Research.dir/build: lib/test-Research
 
 lib/CMakeFiles/test-Research.dir/requires: lib/CMakeFiles/test-Research.dir/test_Research.cc.o.requires
 lib/CMakeFiles/test-Research.dir/requires: lib/CMakeFiles/test-Research.dir/qa_Research.cc.o.requires
-lib/CMakeFiles/test-Research.dir/requires: lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o.requires
+lib/CMakeFiles/test-Research.dir/requires: lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o.requires
 lib/CMakeFiles/test-Research.dir/requires: lib/CMakeFiles/test-Research.dir/qa_multiply_c_ff.cc.o.requires
 lib/CMakeFiles/test-Research.dir/requires: lib/CMakeFiles/test-Research.dir/qa_rotation_cc.cc.o.requires
 lib/CMakeFiles/test-Research.dir/requires: lib/CMakeFiles/test-Research.dir/qa_new_qpsk_demod_cb.cc.o.requires

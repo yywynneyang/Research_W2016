@@ -5,6 +5,7 @@ swig/CMakeFiles/_Research_swig.dir/Research_swigPYTHON_wrap.cxx.o: ../include/Re
 swig/CMakeFiles/_Research_swig.dir/Research_swigPYTHON_wrap.cxx.o: ../include/Research/multiply_c_ff.h
 swig/CMakeFiles/_Research_swig.dir/Research_swigPYTHON_wrap.cxx.o: ../include/Research/new_qpsk_demod_cb.h
 swig/CMakeFiles/_Research_swig.dir/Research_swigPYTHON_wrap.cxx.o: ../include/Research/rotation_cc.h
+swig/CMakeFiles/_Research_swig.dir/Research_swigPYTHON_wrap.cxx.o: ../include/Research/soqpsk_demod.h
 swig/CMakeFiles/_Research_swig.dir/Research_swigPYTHON_wrap.cxx.o: /usr/include/python2.7/Python.h
 swig/CMakeFiles/_Research_swig.dir/Research_swigPYTHON_wrap.cxx.o: /usr/include/python2.7/abstract.h
 swig/CMakeFiles/_Research_swig.dir/Research_swigPYTHON_wrap.cxx.o: /usr/include/python2.7/boolobject.h

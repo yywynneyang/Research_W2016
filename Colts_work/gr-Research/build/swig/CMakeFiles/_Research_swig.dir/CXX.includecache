@@ -28,6 +28,12 @@ Research/api.h
 gnuradio/block.h
 -
 
+../include/Research/soqpsk_demod.h
+Research/api.h
+-
+gnuradio/sync_block.h
+-
+
 /usr/include/python2.7/Python.h
 patchlevel.h
 /usr/include/python2.7/patchlevel.h
@@ -813,6 +819,8 @@ Research/rotation_cc.h
 /usr/src/gnuradio/gnuradio/gr-Research/build/swig/Research/rotation_cc.h
 Research/multiply_c_ff.h
 /usr/src/gnuradio/gnuradio/gr-Research/build/swig/Research/multiply_c_ff.h
+Research/soqpsk_demod.h
+/usr/src/gnuradio/gnuradio/gr-Research/build/swig/Research/soqpsk_demod.h
 float.h
 -
 math.h

@@ -30,7 +30,8 @@
 
 #include "qa_rotation_cc.h"
 #include "qa_multiply_c_ff.h"
-#include "qa_soqpsk_test.h"
+
+#include "qa_soqpsk_demod.h"
 
 CppUnit::TestSuite *
 qa_Research::suite()
@@ -40,7 +41,8 @@ qa_Research::suite()
 
   s->addTest(gr::Research::qa_rotation_cc::suite());
   s->addTest(gr::Research::qa_multiply_c_ff::suite());
-  s->addTest(gr::Research::qa_soqpsk_test::suite());
+
+  s->addTest(gr::Research::qa_soqpsk_demod::suite());
 
   return s;
 }

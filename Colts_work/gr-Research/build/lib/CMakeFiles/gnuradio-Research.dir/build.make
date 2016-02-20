@@ -118,35 +118,35 @@ lib/CMakeFiles/gnuradio-Research.dir/multiply_c_ff_impl.cc.o.provides: lib/CMake
 
 lib/CMakeFiles/gnuradio-Research.dir/multiply_c_ff_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-Research.dir/multiply_c_ff_impl.cc.o
 
-lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o: lib/CMakeFiles/gnuradio-Research.dir/flags.make
-lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o: ../lib/soqpsk_test_impl.cc
+lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o: lib/CMakeFiles/gnuradio-Research.dir/flags.make
+lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o: ../lib/soqpsk_demod_impl.cc
 	$(CMAKE_COMMAND) -E cmake_progress_report /usr/src/gnuradio/gnuradio/gr-Research/build/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o"
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o -c /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o"
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o -c /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.cc
 
-lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.i"
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.cc > CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.i
+lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.i"
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.cc > CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.i
 
-lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.s"
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.cc -o CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.s
+lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.s"
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.cc -o CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.s
 
-lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o.requires:
-.PHONY : lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o.requires:
+.PHONY : lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o.requires
 
-lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o.provides: lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o.requires
-	$(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o.provides.build
-.PHONY : lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o.provides
+lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o.provides: lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o.provides
 
-lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o
+lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o
 
 # Object files for target gnuradio-Research
 gnuradio__Research_OBJECTS = \
 "CMakeFiles/gnuradio-Research.dir/new_qpsk_demod_cb_impl.cc.o" \
 "CMakeFiles/gnuradio-Research.dir/rotation_cc_impl.cc.o" \
 "CMakeFiles/gnuradio-Research.dir/multiply_c_ff_impl.cc.o" \
-"CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o"
+"CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o"
 
 # External object files for target gnuradio-Research
 gnuradio__Research_EXTERNAL_OBJECTS =
@@ -154,7 +154,7 @@ gnuradio__Research_EXTERNAL_OBJECTS =
 lib/libgnuradio-Research.so: lib/CMakeFiles/gnuradio-Research.dir/new_qpsk_demod_cb_impl.cc.o
 lib/libgnuradio-Research.so: lib/CMakeFiles/gnuradio-Research.dir/rotation_cc_impl.cc.o
 lib/libgnuradio-Research.so: lib/CMakeFiles/gnuradio-Research.dir/multiply_c_ff_impl.cc.o
-lib/libgnuradio-Research.so: lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o
+lib/libgnuradio-Research.so: lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o
 lib/libgnuradio-Research.so: lib/CMakeFiles/gnuradio-Research.dir/build.make
 lib/libgnuradio-Research.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/libgnuradio-Research.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -171,7 +171,7 @@ lib/CMakeFiles/gnuradio-Research.dir/build: lib/libgnuradio-Research.so
 lib/CMakeFiles/gnuradio-Research.dir/requires: lib/CMakeFiles/gnuradio-Research.dir/new_qpsk_demod_cb_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-Research.dir/requires: lib/CMakeFiles/gnuradio-Research.dir/rotation_cc_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-Research.dir/requires: lib/CMakeFiles/gnuradio-Research.dir/multiply_c_ff_impl.cc.o.requires
-lib/CMakeFiles/gnuradio-Research.dir/requires: lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-Research.dir/requires: lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o.requires
 .PHONY : lib/CMakeFiles/gnuradio-Research.dir/requires
 
 lib/CMakeFiles/gnuradio-Research.dir/clean:

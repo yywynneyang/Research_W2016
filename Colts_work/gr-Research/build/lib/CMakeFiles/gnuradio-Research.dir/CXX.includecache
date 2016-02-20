@@ -10,7 +10,7 @@
 gnuradio/attributes.h
 -
 
-../include/Research/soqpsk_test.h
+../include/Research/soqpsk_demod.h
 Research/api.h
 -
 gnuradio/sync_block.h
@@ -70,6 +70,22 @@ gnuradio/api.h
 gnuradio/basic_block.h
 -
 map
+-
+
+/usr/local/include/gnuradio/blocks/api.h
+gnuradio/attributes.h
+-
+
+/usr/local/include/gnuradio/blocks/complex_to_float.h
+gnuradio/blocks/api.h
+-
+gnuradio/sync_block.h
+-
+
+/usr/local/include/gnuradio/blocks/complex_to_imag.h
+gnuradio/blocks/api.h
+-
+gnuradio/sync_block.h
 -
 
 /usr/local/include/gnuradio/config.h
@@ -302,15 +318,23 @@ pmt/pmt_sugar.h
 gnuradio/messages/msg_accepter.h
 -
 
-/usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.cc
+/usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.cc
 config.h
 /usr/src/gnuradio/gnuradio/gr-Research/lib/config.h
 gnuradio/io_signature.h
 -
-soqpsk_test_impl.h
-/usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.h
+soqpsk_demod_impl.h
+/usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.h
+pmt/pmt.h
+-
+gnuradio/blocks/complex_to_float.h
+-
+gnuradio/blocks/complex_to_imag.h
+-
+complex
+-
 
-/usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.h
-Research/soqpsk_test.h
+/usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.h
+Research/soqpsk_demod.h
 -
 

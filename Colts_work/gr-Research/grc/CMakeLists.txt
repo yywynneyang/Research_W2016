@@ -21,5 +21,5 @@ install(FILES
     Research_rotation_cc.xml
     Research_rotation_cc.xml
     Research_multiply_c_ff.xml
-    Research_soqpsk_test.xml DESTINATION share/gnuradio/grc/blocks
+    Research_soqpsk_demod.xml DESTINATION share/gnuradio/grc/blocks
 )

@@ -321,29 +321,29 @@ qa_rotation_cc.cc.s:
 	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_rotation_cc.cc.s
 .PHONY : qa_rotation_cc.cc.s
 
-qa_soqpsk_test.o: qa_soqpsk_test.cc.o
-.PHONY : qa_soqpsk_test.o
+qa_soqpsk_demod.o: qa_soqpsk_demod.cc.o
+.PHONY : qa_soqpsk_demod.o
 
 # target to build an object file
-qa_soqpsk_test.cc.o:
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.o
-.PHONY : qa_soqpsk_test.cc.o
+qa_soqpsk_demod.cc.o:
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o
+.PHONY : qa_soqpsk_demod.cc.o
 
-qa_soqpsk_test.i: qa_soqpsk_test.cc.i
-.PHONY : qa_soqpsk_test.i
+qa_soqpsk_demod.i: qa_soqpsk_demod.cc.i
+.PHONY : qa_soqpsk_demod.i
 
 # target to preprocess a source file
-qa_soqpsk_test.cc.i:
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.i
-.PHONY : qa_soqpsk_test.cc.i
+qa_soqpsk_demod.cc.i:
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.i
+.PHONY : qa_soqpsk_demod.cc.i
 
-qa_soqpsk_test.s: qa_soqpsk_test.cc.s
-.PHONY : qa_soqpsk_test.s
+qa_soqpsk_demod.s: qa_soqpsk_demod.cc.s
+.PHONY : qa_soqpsk_demod.s
 
 # target to generate assembly for a file
-qa_soqpsk_test.cc.s:
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_soqpsk_test.cc.s
-.PHONY : qa_soqpsk_test.cc.s
+qa_soqpsk_demod.cc.s:
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/test-Research.dir/build.make lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.s
+.PHONY : qa_soqpsk_demod.cc.s
 
 rotation_cc_impl.o: rotation_cc_impl.cc.o
 .PHONY : rotation_cc_impl.o
@@ -369,29 +369,29 @@ rotation_cc_impl.cc.s:
 	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/rotation_cc_impl.cc.s
 .PHONY : rotation_cc_impl.cc.s
 
-soqpsk_test_impl.o: soqpsk_test_impl.cc.o
-.PHONY : soqpsk_test_impl.o
+soqpsk_demod_impl.o: soqpsk_demod_impl.cc.o
+.PHONY : soqpsk_demod_impl.o
 
 # target to build an object file
-soqpsk_test_impl.cc.o:
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o
-.PHONY : soqpsk_test_impl.cc.o
+soqpsk_demod_impl.cc.o:
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o
+.PHONY : soqpsk_demod_impl.cc.o
 
-soqpsk_test_impl.i: soqpsk_test_impl.cc.i
-.PHONY : soqpsk_test_impl.i
+soqpsk_demod_impl.i: soqpsk_demod_impl.cc.i
+.PHONY : soqpsk_demod_impl.i
 
 # target to preprocess a source file
-soqpsk_test_impl.cc.i:
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.i
-.PHONY : soqpsk_test_impl.cc.i
+soqpsk_demod_impl.cc.i:
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.i
+.PHONY : soqpsk_demod_impl.cc.i
 
-soqpsk_test_impl.s: soqpsk_test_impl.cc.s
-.PHONY : soqpsk_test_impl.s
+soqpsk_demod_impl.s: soqpsk_demod_impl.cc.s
+.PHONY : soqpsk_demod_impl.s
 
 # target to generate assembly for a file
-soqpsk_test_impl.cc.s:
-	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.s
-.PHONY : soqpsk_test_impl.cc.s
+soqpsk_demod_impl.cc.s:
+	cd /usr/src/gnuradio/gnuradio/gr-Research/build && $(MAKE) -f lib/CMakeFiles/gnuradio-Research.dir/build.make lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.s
+.PHONY : soqpsk_demod_impl.cc.s
 
 test_Research.o: test_Research.cc.o
 .PHONY : test_Research.o
@@ -450,15 +450,15 @@ help:
 	@echo "... qa_rotation_cc.o"
 	@echo "... qa_rotation_cc.i"
 	@echo "... qa_rotation_cc.s"
-	@echo "... qa_soqpsk_test.o"
-	@echo "... qa_soqpsk_test.i"
-	@echo "... qa_soqpsk_test.s"
+	@echo "... qa_soqpsk_demod.o"
+	@echo "... qa_soqpsk_demod.i"
+	@echo "... qa_soqpsk_demod.s"
 	@echo "... rotation_cc_impl.o"
 	@echo "... rotation_cc_impl.i"
 	@echo "... rotation_cc_impl.s"
-	@echo "... soqpsk_test_impl.o"
-	@echo "... soqpsk_test_impl.i"
-	@echo "... soqpsk_test_impl.s"
+	@echo "... soqpsk_demod_impl.o"
+	@echo "... soqpsk_demod_impl.i"
+	@echo "... soqpsk_demod_impl.s"
 	@echo "... test_Research.o"
 	@echo "... test_Research.i"
 	@echo "... test_Research.s"

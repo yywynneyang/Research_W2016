@@ -38,7 +38,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/usr/src/gnuradio/gnuradio/gr-Research/grc/Research_rotation_cc.xml"
     "/usr/src/gnuradio/gnuradio/gr-Research/grc/Research_rotation_cc.xml"
     "/usr/src/gnuradio/gnuradio/gr-Research/grc/Research_multiply_c_ff.xml"
-    "/usr/src/gnuradio/gnuradio/gr-Research/grc/Research_soqpsk_test.xml"
+    "/usr/src/gnuradio/gnuradio/gr-Research/grc/Research_soqpsk_demod.xml"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

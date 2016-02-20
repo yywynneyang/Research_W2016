@@ -2,7 +2,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/gnuradio-Research.dir/new_qpsk_demod_cb_impl.cc.o"
   "CMakeFiles/gnuradio-Research.dir/rotation_cc_impl.cc.o"
   "CMakeFiles/gnuradio-Research.dir/multiply_c_ff_impl.cc.o"
-  "CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o"
+  "CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o"
   "libgnuradio-Research.pdb"
   "libgnuradio-Research.so"
 )

@@ -26,5 +26,5 @@ install(FILES
     rotation_cc.h
     rotation_cc.h
     multiply_c_ff.h
-    soqpsk_test.h DESTINATION include/Research
+    soqpsk_demod.h DESTINATION include/Research
 )

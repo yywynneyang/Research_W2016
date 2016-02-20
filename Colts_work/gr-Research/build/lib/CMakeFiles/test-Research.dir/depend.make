@@ -7,6 +7,7 @@ lib/CMakeFiles/test-Research.dir/qa_Research.cc.o: ../lib/qa_Research.h
 lib/CMakeFiles/test-Research.dir/qa_Research.cc.o: ../lib/qa_multiply_c_ff.h
 lib/CMakeFiles/test-Research.dir/qa_Research.cc.o: ../lib/qa_new_qpsk_demod_cb.h
 lib/CMakeFiles/test-Research.dir/qa_Research.cc.o: ../lib/qa_rotation_cc.h
+lib/CMakeFiles/test-Research.dir/qa_Research.cc.o: ../lib/qa_soqpsk_demod.h
 
 lib/CMakeFiles/test-Research.dir/qa_multiply_c_ff.cc.o: ../include/Research/api.h
 lib/CMakeFiles/test-Research.dir/qa_multiply_c_ff.cc.o: ../include/Research/multiply_c_ff.h
@@ -109,6 +110,41 @@ lib/CMakeFiles/test-Research.dir/qa_rotation_cc.cc.o: /usr/local/include/pmt/pmt
 lib/CMakeFiles/test-Research.dir/qa_rotation_cc.cc.o: /usr/local/include/pmt/pmt_sugar.h
 lib/CMakeFiles/test-Research.dir/qa_rotation_cc.cc.o: ../lib/qa_rotation_cc.cc
 lib/CMakeFiles/test-Research.dir/qa_rotation_cc.cc.o: ../lib/qa_rotation_cc.h
+
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: ../include/Research/api.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: ../include/Research/soqpsk_demod.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/api.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/attributes.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/basic_block.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/block.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/block_registry.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/config.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/gr_complex.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/io_signature.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/logger.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/messages/msg_accepter.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/messages/msg_producer.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/msg_accepter.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpccallbackregister_base.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpcmanager.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpcmanager_base.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpcregisterhelpers.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpcserver_aggregator.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpcserver_base.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpcserver_booter_aggregator.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpcserver_booter_base.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/rpcserver_selector.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/runtime_types.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/sptr_magic.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/sync_block.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/tags.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/thread/thread.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/gnuradio/types.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/pmt/api.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/pmt/pmt.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: /usr/local/include/pmt/pmt_sugar.h
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: ../lib/qa_soqpsk_demod.cc
+lib/CMakeFiles/test-Research.dir/qa_soqpsk_demod.cc.o: ../lib/qa_soqpsk_demod.h
 
 lib/CMakeFiles/test-Research.dir/test_Research.cc.o: /usr/local/include/gnuradio/api.h
 lib/CMakeFiles/test-Research.dir/test_Research.cc.o: /usr/local/include/gnuradio/attributes.h

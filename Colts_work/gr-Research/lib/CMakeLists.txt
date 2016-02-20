@@ -29,7 +29,7 @@ list(APPEND Research_sources
     rotation_cc_impl.cc
     rotation_cc_impl.cc
     multiply_c_ff_impl.cc
-    soqpsk_test_impl.cc )
+    soqpsk_demod_impl.cc )
 
 set(Research_sources "${Research_sources}" PARENT_SCOPE)
 if(NOT Research_sources)
@@ -65,7 +65,7 @@ include_directories(${CPPUNIT_INCLUDE_DIRS})
 list(APPEND test_Research_sources
     ${CMAKE_CURRENT_SOURCE_DIR}/test_Research.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/qa_Research.cc
-    ${CMAKE_CURRENT_SOURCE_DIR}/qa_soqpsk_test.cc
+    ${CMAKE_CURRENT_SOURCE_DIR}/qa_soqpsk_demod.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/qa_multiply_c_ff.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/qa_rotation_cc.cc
     ${CMAKE_CURRENT_SOURCE_DIR}/qa_rotation_cc.cc

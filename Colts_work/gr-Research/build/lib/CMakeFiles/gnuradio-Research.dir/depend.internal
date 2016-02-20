@@ -104,14 +104,17 @@ lib/CMakeFiles/gnuradio-Research.dir/rotation_cc_impl.cc.o
  /usr/local/include/pmt/pmt_sugar.h
  /usr/src/gnuradio/gnuradio/gr-Research/lib/rotation_cc_impl.cc
  /usr/src/gnuradio/gnuradio/gr-Research/lib/rotation_cc_impl.h
-lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o
+lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o
  ../include/Research/api.h
- ../include/Research/soqpsk_test.h
+ ../include/Research/soqpsk_demod.h
  /usr/local/include/gnuradio/api.h
  /usr/local/include/gnuradio/attributes.h
  /usr/local/include/gnuradio/basic_block.h
  /usr/local/include/gnuradio/block.h
  /usr/local/include/gnuradio/block_registry.h
+ /usr/local/include/gnuradio/blocks/api.h
+ /usr/local/include/gnuradio/blocks/complex_to_float.h
+ /usr/local/include/gnuradio/blocks/complex_to_imag.h
  /usr/local/include/gnuradio/config.h
  /usr/local/include/gnuradio/gr_complex.h
  /usr/local/include/gnuradio/io_signature.h
@@ -137,5 +140,5 @@ lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o
  /usr/local/include/pmt/api.h
  /usr/local/include/pmt/pmt.h
  /usr/local/include/pmt/pmt_sugar.h
- /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.cc
- /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.h
+ /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.cc
+ /usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.h

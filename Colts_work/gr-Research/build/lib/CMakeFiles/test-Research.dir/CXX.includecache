@@ -10,10 +10,10 @@
 gnuradio/attributes.h
 -
 
-../include/Research/multiply_c_ff.h
+../include/Research/soqpsk_demod.h
 Research/api.h
 -
-gnuradio/block.h
+gnuradio/sync_block.h
 -
 
 /usr/local/include/gnuradio/api.h
@@ -228,6 +228,12 @@ gnuradio/api.h
 boost/shared_ptr.hpp
 -
 
+/usr/local/include/gnuradio/sync_block.h
+gnuradio/api.h
+-
+gnuradio/block.h
+-
+
 /usr/local/include/gnuradio/tags.h
 gnuradio/api.h
 -
@@ -305,21 +311,13 @@ qa_rotation_cc.h
 /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_rotation_cc.h
 qa_multiply_c_ff.h
 /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_multiply_c_ff.h
+qa_soqpsk_demod.h
+/usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_demod.h
 
 /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_Research.h
 gnuradio/attributes.h
 -
 cppunit/TestSuite.h
--
-
-/usr/src/gnuradio/gnuradio/gr-Research/lib/qa_multiply_c_ff.cc
-gnuradio/attributes.h
--
-cppunit/TestAssert.h
--
-qa_multiply_c_ff.h
-/usr/src/gnuradio/gnuradio/gr-Research/lib/qa_multiply_c_ff.h
-Research/multiply_c_ff.h
 -
 
 /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_multiply_c_ff.h
@@ -335,6 +333,22 @@ cppunit/TestCase.h
 -
 
 /usr/src/gnuradio/gnuradio/gr-Research/lib/qa_rotation_cc.h
+cppunit/extensions/HelperMacros.h
+-
+cppunit/TestCase.h
+-
+
+/usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_demod.cc
+gnuradio/attributes.h
+-
+cppunit/TestAssert.h
+-
+qa_soqpsk_demod.h
+/usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_demod.h
+Research/soqpsk_demod.h
+-
+
+/usr/src/gnuradio/gnuradio/gr-Research/lib/qa_soqpsk_demod.h
 cppunit/extensions/HelperMacros.h
 -
 cppunit/TestCase.h

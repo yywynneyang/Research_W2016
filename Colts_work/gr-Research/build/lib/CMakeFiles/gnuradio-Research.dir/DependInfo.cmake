@@ -7,7 +7,7 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "/usr/src/gnuradio/gnuradio/gr-Research/lib/multiply_c_ff_impl.cc" "/usr/src/gnuradio/gnuradio/gr-Research/build/lib/CMakeFiles/gnuradio-Research.dir/multiply_c_ff_impl.cc.o"
   "/usr/src/gnuradio/gnuradio/gr-Research/lib/new_qpsk_demod_cb_impl.cc" "/usr/src/gnuradio/gnuradio/gr-Research/build/lib/CMakeFiles/gnuradio-Research.dir/new_qpsk_demod_cb_impl.cc.o"
   "/usr/src/gnuradio/gnuradio/gr-Research/lib/rotation_cc_impl.cc" "/usr/src/gnuradio/gnuradio/gr-Research/build/lib/CMakeFiles/gnuradio-Research.dir/rotation_cc_impl.cc.o"
-  "/usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_test_impl.cc" "/usr/src/gnuradio/gnuradio/gr-Research/build/lib/CMakeFiles/gnuradio-Research.dir/soqpsk_test_impl.cc.o"
+  "/usr/src/gnuradio/gnuradio/gr-Research/lib/soqpsk_demod_impl.cc" "/usr/src/gnuradio/gnuradio/gr-Research/build/lib/CMakeFiles/gnuradio-Research.dir/soqpsk_demod_impl.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
