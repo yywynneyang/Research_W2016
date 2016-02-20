@@ -89,18 +89,28 @@ namespace gr {
     std::vector<double> S4Di(REGISTER_SIZE,0);
     std::vector<double> S4Dq(REGISTER_SIZE,0);
 
-    double soqpsk_demod_impl::filter(const gr_complex &sample) {
-        double filter_out = DF[1] * (sample.real() + S4Di[18])
-                            + DF[2] * (sample.imag() + S4Di[17])
-                            + DF[3] * (S4Di[1] + S4Di[16])
-                            + DF[4] * (S4Di[2] + S4Di[15])
-                            + DF[5] * (S4Di[3] + S4Di[14])
-                            + DF[6] * (S4Di[4] + S4Di[13])
-                            + DF[7] * (S4Di[5] + S4Di[12])
-                            + DF[8] * (S4Di[6] + S4Di[11])
-                            + DF[9] * (S4Di[7] + S4Di[10])
-                            + DF[10] * (S4Di[8] + S4Di[9]);
-        return filter_out;
+    void soqpsk_demod_impl::filter(double &x, double &y, const gr_complex &sampleA,const gr_complex &sampleB) {
+        x = DF[1] * (sampleB.real() + S4Di[18])
+            + DF[2] * (sampleA.real() + S4Di[17])
+            + DF[3] * (S4Di[1] + S4Di[16])
+            + DF[4] * (S4Di[2] + S4Di[15])
+            + DF[5] * (S4Di[3] + S4Di[14])
+            + DF[6] * (S4Di[4] + S4Di[13])
+            + DF[7] * (S4Di[5] + S4Di[12])
+            + DF[8] * (S4Di[6] + S4Di[11])
+            + DF[9] * (S4Di[7] + S4Di[10])
+            + DF[10] * (S4Di[8] + S4Di[9]);
+
+        y = DF[1] * (sampleB.imag() + S4Dq[18])
+            + DF[2] * (sampleA.imag() + S4Dq[17])
+            + DF[3] * (S4Dq[1] + S4Dq[16])
+            + DF[4] * (S4Dq[2] + S4Dq[15])
+            + DF[5] * (S4Dq[3] + S4Dq[14])
+            + DF[6] * (S4Dq[4] + S4Dq[13])
+            + DF[7] * (S4Dq[5] + S4Dq[12])
+            + DF[8] * (S4Dq[6] + S4Dq[11])
+            + DF[9] * (S4Dq[7] + S4Dq[10])
+            + DF[10] * (S4Dq[8] + S4Dq[9]);
     }
 
 
@@ -117,10 +127,8 @@ namespace gr {
       // Do <+signal processing+>
 
       // Initializations
-      double ri1;
-      double ri;
-      double rq1;
-      double rq;
+      double x;
+      double y;
       // Defining the detection filter
 
 
@@ -132,7 +140,7 @@ namespace gr {
       for(int i = 0 ; i < noutput_items ; i= i + downsample_val)
       {
             // Output computation ------
-
+            //x = this->filter()
             //std::cout << gr::blocks::complex_to_float(input_items[i]) << endl;
             // Get the next two samples
 

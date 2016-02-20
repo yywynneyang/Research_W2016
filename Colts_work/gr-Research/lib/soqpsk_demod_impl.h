@@ -35,7 +35,7 @@ namespace gr {
 
      private:
       // Nothing to declare in this block.
-     double filter(const gr_complex &sample);
+     void filter(double &x, double &y, const gr_complex &sampleA,const gr_complex &sampleB);
      public:
       soqpsk_demod_impl(bool test_var);
       ~soqpsk_demod_impl();
