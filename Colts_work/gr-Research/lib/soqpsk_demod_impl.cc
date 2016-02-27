@@ -131,7 +131,6 @@ namespace gr {
       double y;
       // Defining the detection filter
 
-
       // Initialize the states
 
 
@@ -143,10 +142,7 @@ namespace gr {
             //x = this->filter()
             //std::cout << gr::blocks::complex_to_float(input_items[i]) << endl;
             // Get the next two samples
-
-       //PMT_T derp = pmt_from_complex(input_items[i]);
-
-
+            this->filter(x,y,in[i],in[i+1]);
 
       }
 
