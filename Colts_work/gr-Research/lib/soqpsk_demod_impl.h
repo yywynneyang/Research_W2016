@@ -31,11 +31,16 @@ namespace gr {
     {
       std::vector<double> S4Di;
       std::vector<double> S4Dq;
+      std::vector<double> FX,FY;
+      double MU,XI3,YI2;
       static double DF[DETECTION_FILTER_SIZE];
 
      private:
       // Nothing to declare in this block.
      void filter(double &x, double &y, const gr_complex &sampleA,const gr_complex &sampleB);
+     void rotation(double &xr, double &yr,double x, double y);
+     double sign(double val_in);
+     bool DBIT1;
      public:
       soqpsk_demod_impl(bool test_var);
       ~soqpsk_demod_impl();

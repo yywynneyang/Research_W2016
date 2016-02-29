@@ -88,6 +88,9 @@ namespace gr {
     // Register initializations; easy way of doing it
     std::vector<double> S4Di(REGISTER_SIZE,0);
     std::vector<double> S4Dq(REGISTER_SIZE,0);
+    std::vector<double> FX,FY(REGISTER_SIZE/2,0);
+    double MU,XI3,YI2 = 0;
+    bool DBIT1;
 
     void soqpsk_demod_impl::filter(double &x, double &y, const gr_complex &sampleA,const gr_complex &sampleB) {
         x = DF[1] * (sampleB.real() + S4Di[18])
@@ -113,6 +116,24 @@ namespace gr {
             + DF[10] * (S4Dq[8] + S4Dq[9]);
     }
 
+    void soqpsk_demod_impl::rotation(double &xr, double &yr,double x, double y) {
+        double CTHETA,STHETA = 0;
+
+        xr = x*CTHETA + y*STHETA;
+        yr = -x*STHETA + y*CTHETA;
+    }
+
+    double soqpsk_demod_impl::sign(double val_in) {
+        if(val_in>0) {
+            return 1.0;
+        }
+        else if(val_in<0) {
+            return -1.0;
+        }
+        else {
+            return 0.0;
+        }
+    }
 
     // Main function
     int
@@ -127,8 +148,14 @@ namespace gr {
       // Do <+signal processing+>
 
       // Initializations
-      double x;
-      double y;
+      double x,xr,tempFx;
+      double y,yr,tempFy;
+      bool STROBE =false;
+      double et,ep;
+      double v1,v2,yi,xi1,yi1,xi2;
+      int pk,bk,n=1;
+      bool d0,d1;
+      std::vector<bool> bits(noutput_items*2,false);
       // Defining the detection filter
 
       // Initialize the states
@@ -141,8 +168,63 @@ namespace gr {
             // Output computation ------
             //x = this->filter()
             //std::cout << gr::blocks::complex_to_float(input_items[i]) << endl;
+
             // Get the next two samples
             this->filter(x,y,in[i],in[i+1]);
+
+            this->rotation(xr,yr,x,y);
+
+            if(STROBE==false) {
+                et,ep = 0;
+            }
+            else {
+                tempFx = -0.5*xr;
+                tempFy = -0.5*yr;
+
+                // Compute the interpolant yi form rotated DF outputs
+                v2 = -tempFy + FY[0] + FY[1] - FY[2];
+                v1 = tempFy - FY[0] + FY[5] + FY[1] + FY[2];
+                yi = (v2 * MU + v1) * MU + FY[6];
+
+                // compute interpolants xi1 and yi1 rotated DF outputs
+                v2 = -FX[0] + FX[1] + FX[2] - FX[3];
+                v1 = FX[0] - FX[1] + FX[6] + FX[2] + FX[3];
+                xi1 = (v2 * MU + v1) * MU + FX[7];
+
+                v2 = -FY[0] + FY[1] + FY[2] - FY[3];
+                v1 = FY[0] - FY[1] + FY[6] + FY[2] + FY[3];
+                yi1 = (v2 * MU + v1) * MU + FY[7];
+
+                // compute interpolant xi2 from rotated DF outputs
+                v2 = -FX[1] + FX[2] + FX[3] - FX[4];
+                v1 = FX[1] - FX[2] + FX[7] + FX[3] + FX[4];
+                xi2 = (v2 * MU + v1) * MU + FX[8];
+
+                // compute et
+                et = this->sign(xi2) * (xi1 - XI3) + this->sign(yi1) * (yi - YI2);
+
+                // compute ep
+                ep = this->sign(xi2)*YI2 - this->sign(yi1)*xi1;
+
+                // output
+                out[pk] = xi2 + 1i*yi1;
+                pk = pk + 1;
+                if (xi2 > 0){
+                    d0 = 1;
+                }
+                else {
+                    d0 = 0;
+                }
+                if (yi1 > 0){
+                    d1 = 1;
+                }
+                else{
+                    d1 = 0;
+                }
+                bits[bk] = !(!d0 != !DBIT1);
+                bits[bk+1] = (!d1 != !d0);
+                bk = bk+2;
+            }
 
       }
 
