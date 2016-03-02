@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl" kind="class" prot="public">
+    <compoundname>gr::soqpsk_demod::soqpsk_demod_cc_impl</compoundname>
+    <basecompoundref refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc" prot="public" virt="non-virtual">gr::soqpsk_demod::soqpsk_demod_cc</basecompoundref>
+    <includes refid="soqpsk__demod__cc__impl_8h" local="no">soqpsk_demod_cc_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a3282061c27183dd057d90f95a9e48ab4" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::soqpsk_demod::soqpsk_demod_cc_impl::S4Di</definition>
+        <argsstring></argsstring>
+        <name>S4Di</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="33" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a13c7f3b779de092f6726de2a194049c6" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::soqpsk_demod::soqpsk_demod_cc_impl::S4Dq</definition>
+        <argsstring></argsstring>
+        <name>S4Dq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="34" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a888d0570e638ca109ce5578c2e30ae6a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::soqpsk_demod::soqpsk_demod_cc_impl::FX</definition>
+        <argsstring></argsstring>
+        <name>FX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="35" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a29adc318c6ee5fc5cefa80c49491dabd" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; gr::soqpsk_demod::soqpsk_demod_cc_impl::FY</definition>
+        <argsstring></argsstring>
+        <name>FY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="35" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1aaaec6289f0b02d95d3b938a4daa8c50d" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::soqpsk_demod::soqpsk_demod_cc_impl::MU</definition>
+        <argsstring></argsstring>
+        <name>MU</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="36" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1af77e97e773f8c925162d9a1137e1a43b" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::soqpsk_demod::soqpsk_demod_cc_impl::XI3</definition>
+        <argsstring></argsstring>
+        <name>XI3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="36" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a4efefc20cab52a4246327a862a3bba67" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double gr::soqpsk_demod::soqpsk_demod_cc_impl::YI2</definition>
+        <argsstring></argsstring>
+        <name>YI2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="36" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a61139390d2a55923c87ba5371cf42644" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::soqpsk_demod::soqpsk_demod_cc_impl::DBIT1</definition>
+        <argsstring></argsstring>
+        <name>DBIT1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="43" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a66b652bd8a3c74e2cd03fd3a53c80266" prot="private" static="yes" mutable="no">
+        <type>double</type>
+        <definition>double gr::soqpsk_demod::soqpsk_demod_cc_impl::DF[DETECTION_FILTER_SIZE]</definition>
+        <argsstring>[DETECTION_FILTER_SIZE]</argsstring>
+        <name>DF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="37" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a1262ce0109a5636899d9edb32190ed7f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::soqpsk_demod::soqpsk_demod_cc_impl::filter</definition>
+        <argsstring>(double &amp;x, double &amp;y, const gr_complex &amp;sampleA, const gr_complex &amp;sampleB)</argsstring>
+        <name>filter</name>
+        <param>
+          <type>double &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>sampleA</declname>
+        </param>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>sampleB</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1ae919cc623471f74837f77f40dcbcf687" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::soqpsk_demod::soqpsk_demod_cc_impl::rotation</definition>
+        <argsstring>(double &amp;xr, double &amp;yr, double x, double y)</argsstring>
+        <name>rotation</name>
+        <param>
+          <type>double &amp;</type>
+          <declname>xr</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>yr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1aeb69b12b5f0bba3969c6a467b070b7d0" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double gr::soqpsk_demod::soqpsk_demod_cc_impl::sign</definition>
+        <argsstring>(double val_in)</argsstring>
+        <name>sign</name>
+        <param>
+          <type>double</type>
+          <declname>val_in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a3277dfb5d38a9047c0a65af73aff5ef9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::soqpsk_demod::soqpsk_demod_cc_impl::soqpsk_demod_cc_impl</definition>
+        <argsstring>(bool test_var)</argsstring>
+        <name>soqpsk_demod_cc_impl</name>
+        <param>
+          <type>bool</type>
+          <declname>test_var</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a1bc89e3adadf43f48d2385f3944f7989" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::soqpsk_demod::soqpsk_demod_cc_impl::~soqpsk_demod_cc_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~soqpsk_demod_cc_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a5fc2b4b99d8b2d1b3ee41595c996020e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::soqpsk_demod::soqpsk_demod_cc_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a786cd10ab55002364726569c0138ffbd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::soqpsk_demod::soqpsk_demod_cc_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="52" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="5">
+        <label>gr::soqpsk_demod::soqpsk_demod_cc_impl</label>
+        <link refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>gr::soqpsk_demod::soqpsk_demod_cc</label>
+        <link refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="8">
+        <label>gr::soqpsk_demod::soqpsk_demod_cc_impl</label>
+        <link refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>gr::soqpsk_demod::soqpsk_demod_cc</label>
+        <link refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" line="32" column="1" bodyfile="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/lib/soqpsk_demod_cc_impl.h" bodystart="31" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a61139390d2a55923c87ba5371cf42644" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>DBIT1</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a66b652bd8a3c74e2cd03fd3a53c80266" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>DF</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a1262ce0109a5636899d9edb32190ed7f" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>filter</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a5fc2b4b99d8b2d1b3ee41595c996020e" prot="public" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a888d0570e638ca109ce5578c2e30ae6a" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>FX</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a29adc318c6ee5fc5cefa80c49491dabd" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>FY</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a786cd10ab55002364726569c0138ffbd" prot="public" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc_1a965d9936a9bb74a0684127a66ba8972c" prot="public" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1aaaec6289f0b02d95d3b938a4daa8c50d" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>MU</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1ae919cc623471f74837f77f40dcbcf687" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>rotation</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a3282061c27183dd057d90f95a9e48ab4" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>S4Di</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a13c7f3b779de092f6726de2a194049c6" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>S4Dq</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1aeb69b12b5f0bba3969c6a467b070b7d0" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>sign</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a3277dfb5d38a9047c0a65af73aff5ef9" prot="public" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>soqpsk_demod_cc_impl</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc_1a2ace0fb94f5d47d47e61fc1247b32110" prot="public" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1af77e97e773f8c925162d9a1137e1a43b" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>XI3</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a4efefc20cab52a4246327a862a3bba67" prot="private" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>YI2</name></member>
+      <member refid="classgr_1_1soqpsk__demod_1_1soqpsk__demod__cc__impl_1a1bc89e3adadf43f48d2385f3944f7989" prot="public" virt="non-virtual"><scope>gr::soqpsk_demod::soqpsk_demod_cc_impl</scope><name>~soqpsk_demod_cc_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

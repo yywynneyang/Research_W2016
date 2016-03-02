@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_967a266c56b82ed75c000a58d6136150" kind="dir">
+    <compoundname>soqpsk_demod</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="soqpsk__demod__cc_8h">soqpsk_demod_cc.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/usr/share/gnuradio/gnuradio/gr-soqpsk_demod/include/soqpsk_demod/"/>
+  </compounddef>
+</doxygen>
