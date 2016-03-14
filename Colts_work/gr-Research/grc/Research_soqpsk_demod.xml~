@@ -42,6 +42,6 @@
        * optional (set to 1 for optional inputs) -->
   <source>
     <name>out</name>
-    <type>complex</type>
+    <type>double</type>
   </source>
 </block>

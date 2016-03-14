@@ -4,6 +4,7 @@
 /usr/local/include/Research/rotation_cc.h
 /usr/local/include/Research/rotation_cc.h
 /usr/local/include/Research/multiply_c_ff.h
+/usr/local/include/Research/soqpsk_demod.h
 /usr/local/lib/libgnuradio-Research.so
 /usr/local/lib/python2.7/dist-packages/Research/_Research_swig.so
 /usr/local/lib/python2.7/dist-packages/Research/Research_swig.py
@@ -18,6 +19,7 @@
 /usr/local/share/gnuradio/grc/blocks/Research_rotation_cc.xml
 /usr/local/share/gnuradio/grc/blocks/Research_rotation_cc.xml
 /usr/local/share/gnuradio/grc/blocks/Research_multiply_c_ff.xml
+/usr/local/share/gnuradio/grc/blocks/Research_soqpsk_demod.xml
 /usr/local/share/doc/gr-Research/xml/api_8h.xml
 /usr/local/share/doc/gr-Research/xml/compound.xsd
 /usr/local/share/doc/gr-Research/xml/dir_97aefd0d527b934f1d99a682da8fe6a9.xml
