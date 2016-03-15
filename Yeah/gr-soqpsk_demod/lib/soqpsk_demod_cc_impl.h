@@ -30,8 +30,10 @@ namespace gr {
 
     class soqpsk_demod_cc_impl : public soqpsk_demod_cc
     {
-        std::vector<double> S4Di;
-      	std::vector<double> S4Dq;
+        //std::vector<double> S4Di;
+      	//std::vector<double> S4Dq;
+      	double S4Di[REGISTER_SIZE];
+      	double S4Dq[REGISTER_SIZE];
       	std::vector<double> FX,FY;
       	double MU,XI3,YI2,VT1,ET1,VP1,EP1,BnTst,zetat,N1,N2,k0t,kpt,BnTsp,zetap,kpp,k0p,NCO,CTHETA,STHETA,THETA;
       	static double DF[DETECTION_FILTER_SIZE];

@@ -73,8 +73,10 @@ namespace gr {
                                0.023688987704657,
                                0.010378066969709};
 
-    std::vector<double> S4Di(REGISTER_SIZE,0);
-    std::vector<double> S4Dq(REGISTER_SIZE,0);
+    //std::vector<double> S4Di(REGISTER_SIZE,0);
+    //std::vector<double> S4Dq(REGISTER_SIZE,0);
+    double S4Di[REGISTER_SIZE];
+    double S4Dq[REGISTER_SIZE];
     std::vector<double> FX,FY(REGISTER_SIZE/2,0);
     double MU,XI3,YI2,VT1,ET1,VP1,EP1,NCO = 0;
     double CTHETA,STHETA,THETA = 0;
