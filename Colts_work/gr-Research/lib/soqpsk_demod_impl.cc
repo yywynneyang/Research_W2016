@@ -59,34 +59,36 @@ namespace gr {
     }
 
     // Detection filter coefficients
-//    double soqpsk_demod_impl::DF[DETECTION_FILTER_SIZE] = {0.010378066969709,
-//                               0.023688987704657,
-//                               0.009767134822858,
-//                              -0.027017804469398,
-//                              -0.089762303133391,
-//                              -0.110346523809347,
-//                              -0.051853991233850,
-//                               0.154921158891652,
-//                               0.568943123186263,
-//                               0.792392871766106,
-//                               0.792392871766106,
-//                               0.568943123186263,
-//                               0.154921158891652,
-//                              -0.051853991233850,
-//                              -0.110346523809347,
-//                              -0.089762303133391,
-//                              -0.027017804469398,
-//                               0.009767134822858,
-//                               0.023688987704657,
-//                               0.010378066969709};
+    double soqpsk_demod_impl::DF[DETECTION_FILTER_SIZE] = {0.010378066969709,
+                               0.023688987704657,
+                               0.009767134822858,
+                              -0.027017804469398,
+                              -0.089762303133391,
+                              -0.110346523809347,
+                              -0.051853991233850,
+                               0.154921158891652,
+                               0.568943123186263,
+                               0.792392871766106,
+                               0.792392871766106,
+                               0.568943123186263,
+                               0.154921158891652,
+                              -0.051853991233850,
+                              -0.110346523809347,
+                              -0.089762303133391,
+                              -0.027017804469398,
+                               0.009767134822858,
+                               0.023688987704657,
+                               0.010378066969709};
 
     // Register initializations; easy way of doing it
-//    std::vector<double> S4Di(REGISTER_SIZE,0.0); // change to array
-    double soqpsk_demod_impl::S4Di[REGISTER_SIZE] = {0.0};
-    double soqpsk_demod_impl::S4Dq[REGISTER_SIZE] = {0.0};
-
+    double S4Di[REGISTER_SIZE];
+    double S4Dq[REGISTER_SIZE];
+//    double soqpsk_demod_impl::S4Di[REGISTER_SIZE] = {0.0};
+//    double soqpsk_demod_impl::S4Dq[REGISTER_SIZE] = {0.0};
+//
 //    std::vector<double> S4Dq(REGISTER_SIZE,0.0);
-    std::vector<double> FX,FY(REGISTER_SIZE/2,0);
+    double FX[REGISTER_SIZE/2] = {0.0};
+    double FY[REGISTER_SIZE/2] = {0.0}; // check to see if initiallized to zero
     double MU,XI3,YI2,VT1,ET1,VP1,EP1,NCO = 0.0;
     double CTHETA,STHETA,THETA = 0.0;
 
@@ -126,38 +128,33 @@ namespace gr {
     bool DBIT1;
 
     void soqpsk_demod_impl::filter(double &x, double &y, const gr_complex &sampleA,const gr_complex &sampleB) {
-       double DF[DETECTION_FILTER_SIZE] = {0.010378066969709,
-                               0.023688987704657,
-                               0.009767134822858,
-                              -0.027017804469398,
-                              -0.089762303133391,
-                              -0.110346523809347,
-                              -0.051853991233850,
-                               0.154921158891652,
-                               0.568943123186263,
-                               0.792392871766106,
-                               0.792392871766106,
-                               0.568943123186263,
-                               0.154921158891652,
-                              -0.051853991233850,
-                              -0.110346523809347,
-                              -0.089762303133391,
-                              -0.027017804469398,
-                               0.009767134822858,
-                               0.023688987704657,
-                               0.010378066969709};
+//       double DF[DETECTION_FILTER_SIZE] = {0.010378066969709,
+//                               0.023688987704657,
+//                               0.009767134822858,
+//                              -0.027017804469398,
+//                              -0.089762303133391,
+//                              -0.110346523809347,
+//                              -0.051853991233850,
+//                               0.154921158891652,
+//                               0.568943123186263,
+//                               0.792392871766106,
+//                               0.792392871766106,
+//                               0.568943123186263,
+//                               0.154921158891652,
+//                              -0.051853991233850,
+//                              -0.110346523809347,
+//                              -0.089762303133391,
+//                              -0.027017804469398,
+//                               0.009767134822858,
+//                               0.023688987704657,
+//                               0.010378066969709};
 
-        std::cout << "probe filter 1"<< std::endl;
-        //sampleB.real()
-        x = DF[1] * ( 1.0+ 1.0);
-                std::cout << "probe filter 2.5 "<< "the value: " << this->BnTst<< " the function: " << this->return_BnTst()<<std::endl;
 
-                S4Di[1] = 1.0;
-                std::cout << "probe filter: "<< S4Di[1]<< std::endl;
 
         // you need an alternative way to access class variables; try doing a function or something
         // or maybe the S4D registers are not initiallized
-        x = x + DF[2] * (sampleA.real() + S4Di[17])
+        x = DF[1] * (sampleB.real() + S4Di[18])
+            + DF[2] * (sampleA.real() + S4Di[17])
             + DF[3] * (S4Di[1] + S4Di[16])
             + DF[4] * (S4Di[2] + S4Di[15])
             + DF[5] * (S4Di[3] + S4Di[14])
@@ -177,7 +174,6 @@ namespace gr {
             + DF[8] * (S4Dq[6] + S4Dq[11])
             + DF[9] * (S4Dq[7] + S4Dq[10])
             + DF[10] * (S4Dq[8] + S4Dq[9]);
-         std::cout << "probe filter 3"<< std::endl;
 
     }
 
@@ -217,20 +213,21 @@ namespace gr {
       bool STROBE =false;
       double et,ep;
       double v1,v2,yi,xi1,yi1,xi2,vt,vp,w;
-      int pk,bk,n=1;
+      int bk,n=1;
+      int pk = 0;
       bool d0,d1;
       std::vector<bool> bits(noutput_items*2,false);
       // Defining the detection filter
 
       // Initialize the states
-        std::cout << "noutputs: " << noutput_items << " input items: "<< sizeof(in) << std::endl;
+//        std::cout << "noutputs: " << noutput_items << " input items: "<< sizeof(in) << std::endl;
 
       // End initializations
       int downsample_val = 2;   // Figure out how to get the sample rate
       for(int i = 0 ; i < sizeof(in)-1 ; i= i + downsample_val)
       {
-            std::cout << "data: " << in[i] << " " << in[i+1] << std::endl;
-
+//            std::cout << "data: " << in[i] << " " << in[i+1] << std::endl;
+//            std::cout << "Hi, I can debug now" << std::endl;
 
             // Output computation ------
             //x = this->filter()
@@ -238,16 +235,18 @@ namespace gr {
 
             // Get the next two samples
             this->filter(x,y,in[i],in[i+1]);
-            std::cout << "probe 1"<< std::endl;
+//            std::cout << "probe 1"<< std::endl;
             this->rotation(xr,yr,x,y);
-            std::cout << "probe 2"<< std::endl;
+//            std::cout << "probe 2"<< std::endl;
             if(STROBE==false) {
                 et,ep = 0;
+//                std::cout << "strobe is false" << std::endl;
             }
             else {
+//                std::cout << "strobe is true" << std::endl;
                 tempFx = -0.5*xr;
                 tempFy = -0.5*yr;
-
+//                std::cout << "FY[0] " << FY[0]  << std::endl;
                 // Compute the interpolant yi form rotated DF outputs
                 v2 = -tempFy + FY[0] + FY[1] - FY[2];
                 v1 = tempFy - FY[0] + FY[5] + FY[1] + FY[2];
@@ -272,9 +271,11 @@ namespace gr {
 
                 // compute ep
                 ep = this->sign(xi2)*YI2 - this->sign(yi1)*xi1;
-
+//                 std::cout << "before output: "<< std::endl;
+//                std::cout << "before output: "<< pk << " " << xi2 + 1i*yi1 << std::endl;
                 // output
                 out[pk] = xi2 + 1i*yi1;
+//                std::cout << "after output" << std::endl;
                 pk = pk + 1;
                 if (xi2 > 0){
                     d0 = 1;
@@ -291,14 +292,16 @@ namespace gr {
                 bits[bk] = !(!d0 != !DBIT1);
                 bits[bk+1] = (!d1 != !d0);
                 bk = bk+2;
+
             }
-            std::cout << "probe 3"<< std::endl;
+//            std::cout << "probe 3"<< std::endl;
 
               vt = VT1 + b0t*et + b1t*ET1;//compute timing loop filter output
 
             vp = VP1 + b0p*ep + b1p*EP1;//compute phase loop filter output
 
             w = vt + 0.5;//compute NCO input
+//            std::cout << "probe 4"<< std::endl;
 
             S4Di[17] = S4Di[15];
             S4Di[16] = S4Di[14];
@@ -338,7 +341,9 @@ namespace gr {
             S4Dq[1] = in[i].imag();
             S4Dq[0] = in[i+1].imag();
 
-              FX[4] = FX[3];
+//            std::cout << "probe 5"<< std::endl;
+
+            FX[4] = FX[3];
             FX[3] = FX[2];
             FX[2] = FX[1];
             FX[1] = FX[0];
@@ -356,6 +361,7 @@ namespace gr {
             FY[6] = FY[5];
             FY[5] = yr;
 
+//            std::cout << "probe 6"<< std::endl;
 
             if (STROBE)
             {
@@ -368,7 +374,6 @@ namespace gr {
             EP1 = ep;
             VT1 = vt;
             ET1 = et;
-            std::cout << "probe 4"<< std::endl;
             double temp = NCO - w;
             if (temp < 0)
             {
@@ -384,11 +389,13 @@ namespace gr {
             THETA = THETA + vp;
             CTHETA = cos(THETA);
             STHETA = sin(THETA);
-            std::cout << "probe 5"<< std::endl;
+//            std::cout << "probe 7"<< std::endl;
       }
-        std::cout << "done been blessed" << std::endl;
+//        std::cout << "done been blessed" << std::endl;
 
       // Tell runtime system how many output items we produced.
+      this->consume(0,sizeof(in));
+      this->consume_each(sizeof(in));
       return noutput_items;
     }
 
