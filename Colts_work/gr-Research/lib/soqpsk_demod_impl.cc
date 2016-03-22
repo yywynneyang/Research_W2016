@@ -196,6 +196,18 @@ namespace gr {
         }
     }
 
+    void
+    soqpsk_demod_impl::forecast(int noutput_items,
+                     gr_vector_int &ninput_items_required)
+  {
+    unsigned ninputs = ninput_items_required.size ();
+
+    for(unsigned i = 0; i < ninputs; i++)
+      ninput_items_required[i] = 2*noutput_items;
+
+
+    std::cout << ninput_items_required[0] << " is what we want" << std::endl;
+  }
     // Main function
     int
     soqpsk_demod_impl::work(int noutput_items,
@@ -220,11 +232,11 @@ namespace gr {
       // Defining the detection filter
 
       // Initialize the states
-//        std::cout << "noutputs: " << noutput_items << " input items: "<< sizeof(in) << std::endl;
-
+//        std::cout << "noutputs: " << noutput_items << " input items: "<< sizeof(in) << " output items: " << sizeof(out) << std::endl;
+        int d_num_inputs = 2*noutput_items;
       // End initializations
       int downsample_val = 2;   // Figure out how to get the sample rate
-      for(int i = 0 ; i < sizeof(in)-1 ; i= i + downsample_val)
+      for(int i = 0 ; i < d_num_inputs-1 ; i= i + downsample_val)
       {
 //            std::cout << "data: " << in[i] << " " << in[i+1] << std::endl;
 //            std::cout << "Hi, I can debug now" << std::endl;
