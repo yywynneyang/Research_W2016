@@ -1,0 +1,18 @@
+<testsuite errors="1" failures="0" name="unittest.suite.TestSuite" tests="1" time="0.003">
+  <testcase classname="__main__.qa_multiply_c_ff" name="test_001_t" time="0.0027">
+    <error type="exceptions.ValueError">itemsize mismatch: vector_source_f0:0 using 4, multiply_c_ff0:0 using 8
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "qa_multiply_c_ff.py", line 42, in test_001_t
+    self.tb.connect (src, mult)
+  File "/usr/local/lib/python2.7/dist-packages/gnuradio/gr/hier_block2.py", line 47, in wrapped
+    func(self, src, src_port, dst, dst_port)
+  File "/usr/local/lib/python2.7/dist-packages/gnuradio/gr/hier_block2.py", line 110, in connect
+    self.primitive_connect(*args)
+  File "/usr/local/lib/python2.7/dist-packages/gnuradio/gr/runtime_swig.py", line 4569, in primitive_connect
+    return _runtime_swig.top_block_sptr_primitive_connect(self, *args)
+    </error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

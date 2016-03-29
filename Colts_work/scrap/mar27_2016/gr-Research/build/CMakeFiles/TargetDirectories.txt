@@ -1,0 +1,12 @@
+/usr/src/gnuradio/gnuradio/gr-Research/build/swig/CMakeFiles/Research_swig_swig_2d0df.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/swig/CMakeFiles/Research_swig_swig_doc.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/swig/CMakeFiles/_Research_swig.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/swig/CMakeFiles/_Research_swig_doc_tag.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/swig/CMakeFiles/_Research_swig_swig_tag.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/lib/CMakeFiles/gnuradio-Research.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/python/CMakeFiles/pygen_python_94839.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/swig/CMakeFiles/pygen_swig_121bb.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/lib/CMakeFiles/test-Research.dir
+/usr/src/gnuradio/gnuradio/gr-Research/build/CMakeFiles/uninstall.dir

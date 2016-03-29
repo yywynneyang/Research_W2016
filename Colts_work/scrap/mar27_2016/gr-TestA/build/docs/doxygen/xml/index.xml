@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1TestA_1_1my__qpsk__demod__cb" kind="class"><name>gr::TestA::my_qpsk_demod_cb</name>
+    <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb_1ad366f44f4c6e4c73cb1754b3be79cb0a" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb_1af52f511ef638c7b3c149ffc3a5257675" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl" kind="class"><name>gr::TestA::my_qpsk_demod_cb_impl</name>
+    <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a6e7af457925b4fd250aaae4e4908e95b" kind="variable"><name>d_gray_code</name></member>
+    <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1ab2ec3023f836f845eae3bc3ecc83b902" kind="function"><name>my_qpsk_demod_cb_impl</name></member>
+    <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a11eb9b86b8329b11f8276b1dc22ed754" kind="function"><name>~my_qpsk_demod_cb_impl</name></member>
+    <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a3ad76f7bf2ada7f025b44cb5c788c137" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a27e9009db06b95fb99afee9c6b76fad3" kind="function"><name>get_minimum_distances</name></member>
+    <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a76e6df01a5c10ba3ed8fd57ec46c6df3" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1TestA" kind="namespace"><name>gr::TestA</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1aa4fc4d741d91ae1ebe93ec41578f8653" kind="define"><name>TESTA_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="my__qpsk__demod__cb_8h" kind="file"><name>my_qpsk_demod_cb.h</name>
+  </compound>
+  <compound refid="my__qpsk__demod__cb__impl_8h" kind="file"><name>my_qpsk_demod_cb_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_224ceb66e5de01968c487bcf066b912e" kind="dir"><name>TestA</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

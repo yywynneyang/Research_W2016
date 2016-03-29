@@ -1,0 +1,12 @@
+/usr/src/gnuradio/gnuradio/gr-TestA/build/swig/CMakeFiles/TestA_swig_swig_2d0df.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/swig/CMakeFiles/TestA_swig_swig_doc.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/swig/CMakeFiles/_TestA_swig.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/swig/CMakeFiles/_TestA_swig_doc_tag.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/swig/CMakeFiles/_TestA_swig_swig_tag.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/lib/CMakeFiles/gnuradio-TestA.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/python/CMakeFiles/pygen_python_fc0cf.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/swig/CMakeFiles/pygen_swig_291cb.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/lib/CMakeFiles/test-TestA.dir
+/usr/src/gnuradio/gnuradio/gr-TestA/build/CMakeFiles/uninstall.dir

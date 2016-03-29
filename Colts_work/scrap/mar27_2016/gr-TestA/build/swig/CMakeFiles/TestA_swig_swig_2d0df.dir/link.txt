@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG    CMakeFiles/TestA_swig_swig_2d0df.dir/TestA_swig_swig_2d0df.cpp.o  -o TestA_swig_swig_2d0df -rdynamic 

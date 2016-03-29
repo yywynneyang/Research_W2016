@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="classgr_1_1dirt_1_1my__qpsk__demod__cb" kind="class"><name>gr::dirt::my_qpsk_demod_cb</name>
+    <member refid="classgr_1_1dirt_1_1my__qpsk__demod__cb_1a3aa7a56242e8f9818b20a3edb42ae82e" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1dirt_1_1my__qpsk__demod__cb_1a7953d2eec4a060760812610aa32a0d7f" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1dirt_1_1my__qpsk__demod__cb__impl" kind="class"><name>gr::dirt::my_qpsk_demod_cb_impl</name>
+    <member refid="classgr_1_1dirt_1_1my__qpsk__demod__cb__impl_1a35b947f6c7d8550fa0a0f3bbe41f8825" kind="variable"><name>d_gray_code</name></member>
+    <member refid="classgr_1_1dirt_1_1my__qpsk__demod__cb__impl_1a0abc2b43728e47c96e8f96e79c7cf7ce" kind="function"><name>my_qpsk_demod_cb_impl</name></member>
+    <member refid="classgr_1_1dirt_1_1my__qpsk__demod__cb__impl_1a1505baa3b77cf7e8de21d82739fc7784" kind="function"><name>~my_qpsk_demod_cb_impl</name></member>
+    <member refid="classgr_1_1dirt_1_1my__qpsk__demod__cb__impl_1aff35300ecee511d713bbaf52b35606d5" kind="function"><name>forecast</name></member>
+    <member refid="classgr_1_1dirt_1_1my__qpsk__demod__cb__impl_1ab65d4834dc59cb7d3ab6a25b29bea4c3" kind="function"><name>get_minimum_distances</name></member>
+    <member refid="classgr_1_1dirt_1_1my__qpsk__demod__cb__impl_1a0c68f97029afbfcf42c42a41964199e6" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1dirt" kind="namespace"><name>gr::dirt</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1ab1fb9be90f864adcf90c34a59d48deb8" kind="define"><name>DIRT_API</name></member>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="my__qpsk__demod__cb_8h" kind="file"><name>my_qpsk_demod_cb.h</name>
+  </compound>
+  <compound refid="my__qpsk__demod__cb__impl_8h" kind="file"><name>my_qpsk_demod_cb_impl.h</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_504f0441d6da65ab78a3de888e4aaf6c" kind="dir"><name>dirt</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

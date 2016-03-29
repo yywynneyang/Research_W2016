@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl" kind="class" prot="public">
+    <compoundname>gr::TestA::my_qpsk_demod_cb_impl</compoundname>
+    <basecompoundref refid="classgr_1_1TestA_1_1my__qpsk__demod__cb" prot="public" virt="non-virtual">gr::TestA::my_qpsk_demod_cb</basecompoundref>
+    <includes refid="my__qpsk__demod__cb__impl_8h" local="no">my_qpsk_demod_cb_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a6e7af457925b4fd250aaae4e4908e95b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::TestA::my_qpsk_demod_cb_impl::d_gray_code</definition>
+        <argsstring></argsstring>
+        <name>d_gray_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" line="33" column="1" bodyfile="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1ab2ec3023f836f845eae3bc3ecc83b902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::TestA::my_qpsk_demod_cb_impl::my_qpsk_demod_cb_impl</definition>
+        <argsstring>(bool gray_code)</argsstring>
+        <name>my_qpsk_demod_cb_impl</name>
+        <param>
+          <type>bool</type>
+          <declname>gray_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" line="35" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a11eb9b86b8329b11f8276b1dc22ed754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::TestA::my_qpsk_demod_cb_impl::~my_qpsk_demod_cb_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~my_qpsk_demod_cb_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" line="36" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a3ad76f7bf2ada7f025b44cb5c788c137" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::TestA::my_qpsk_demod_cb_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a27e9009db06b95fb99afee9c6b76fad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::TestA::my_qpsk_demod_cb_impl::get_minimum_distances</definition>
+        <argsstring>(const gr_complex &amp;sample)</argsstring>
+        <name>get_minimum_distances</name>
+        <param>
+          <type>const gr_complex &amp;</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a76e6df01a5c10ba3ed8fd57ec46c6df3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::TestA::my_qpsk_demod_cb_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" line="42" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>gr::TestA::my_qpsk_demod_cb</label>
+        <link refid="classgr_1_1TestA_1_1my__qpsk__demod__cb"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>gr::TestA::my_qpsk_demod_cb_impl</label>
+        <link refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>gr::block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>gr::TestA::my_qpsk_demod_cb</label>
+        <link refid="classgr_1_1TestA_1_1my__qpsk__demod__cb"/>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>gr::TestA::my_qpsk_demod_cb_impl</label>
+        <link refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>gr::block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" line="30" column="1" bodyfile="/usr/src/gnuradio/gnuradio/gr-TestA/lib/my_qpsk_demod_cb_impl.h" bodystart="29" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a6e7af457925b4fd250aaae4e4908e95b" prot="private" virt="non-virtual"><scope>gr::TestA::my_qpsk_demod_cb_impl</scope><name>d_gray_code</name></member>
+      <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a3ad76f7bf2ada7f025b44cb5c788c137" prot="public" virt="non-virtual"><scope>gr::TestA::my_qpsk_demod_cb_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a76e6df01a5c10ba3ed8fd57ec46c6df3" prot="public" virt="non-virtual"><scope>gr::TestA::my_qpsk_demod_cb_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a27e9009db06b95fb99afee9c6b76fad3" prot="public" virt="non-virtual"><scope>gr::TestA::my_qpsk_demod_cb_impl</scope><name>get_minimum_distances</name></member>
+      <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb_1af52f511ef638c7b3c149ffc3a5257675" prot="public" virt="non-virtual"><scope>gr::TestA::my_qpsk_demod_cb_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1ab2ec3023f836f845eae3bc3ecc83b902" prot="public" virt="non-virtual"><scope>gr::TestA::my_qpsk_demod_cb_impl</scope><name>my_qpsk_demod_cb_impl</name></member>
+      <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb_1ad366f44f4c6e4c73cb1754b3be79cb0a" prot="public" virt="non-virtual"><scope>gr::TestA::my_qpsk_demod_cb_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1TestA_1_1my__qpsk__demod__cb__impl_1a11eb9b86b8329b11f8276b1dc22ed754" prot="public" virt="non-virtual"><scope>gr::TestA::my_qpsk_demod_cb_impl</scope><name>~my_qpsk_demod_cb_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

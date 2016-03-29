@@ -1,0 +1,12 @@
+/usr/src/gnuradio/gnuradio/gr-dirt/build/swig/CMakeFiles/_dirt_swig.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/swig/CMakeFiles/_dirt_swig_doc_tag.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/swig/CMakeFiles/_dirt_swig_swig_tag.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/swig/CMakeFiles/dirt_swig_swig_2d0df.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/swig/CMakeFiles/dirt_swig_swig_doc.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/lib/CMakeFiles/gnuradio-dirt.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/python/CMakeFiles/pygen_python_e8c34.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/swig/CMakeFiles/pygen_swig_06ba8.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/lib/CMakeFiles/test-dirt.dir
+/usr/src/gnuradio/gnuradio/gr-dirt/build/CMakeFiles/uninstall.dir

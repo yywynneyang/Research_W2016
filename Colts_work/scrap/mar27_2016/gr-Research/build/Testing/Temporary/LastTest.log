@@ -1,0 +1,59 @@
+Start testing: Feb 02 14:36 MST
+----------------------------------------------------------
+1/3 Testing: test_Research
+1/3 Test: test_Research
+Command: "/bin/sh" "/usr/src/gnuradio/gnuradio/gr-Research/build/lib/test_Research_test.sh"
+Directory: /usr/src/gnuradio/gnuradio/gr-Research/build/lib
+"test_Research" start time: Feb 02 14:36 MST
+Output:
+----------------------------------------------------------
+..
+
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"test_Research" end time: Feb 02 14:36 MST
+"test_Research" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: qa_new_qpsk_demod_cb
+2/3 Test: qa_new_qpsk_demod_cb
+Command: "/bin/sh" "/usr/src/gnuradio/gnuradio/gr-Research/build/python/qa_new_qpsk_demod_cb_test.sh"
+Directory: /usr/src/gnuradio/gnuradio/gr-Research/build/python
+"qa_new_qpsk_demod_cb" start time: Feb 02 14:36 MST
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+OK
+<end of output>
+Test time =   0.19 sec
+----------------------------------------------------------
+Test Passed.
+"qa_new_qpsk_demod_cb" end time: Feb 02 14:36 MST
+"qa_new_qpsk_demod_cb" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: qa_rotation_cc
+3/3 Test: qa_rotation_cc
+Command: "/bin/sh" "/usr/src/gnuradio/gnuradio/gr-Research/build/python/qa_rotation_cc_test.sh"
+Directory: /usr/src/gnuradio/gnuradio/gr-Research/build/python
+"qa_rotation_cc" start time: Feb 02 14:36 MST
+Output:
+----------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/src/gnuradio/gnuradio/gr-Research/python/qa_rotation_cc.py", line 24, in <module>
+    import rotation_cc as rotation_cc
+ImportError: No module named rotation_cc
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Failed.
+"qa_rotation_cc" end time: Feb 02 14:36 MST
+"qa_rotation_cc" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 02 14:36 MST
