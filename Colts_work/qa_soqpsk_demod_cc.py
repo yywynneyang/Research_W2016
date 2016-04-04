@@ -34,8 +34,8 @@ class qa_soqpsk_demod_cc (gr_unittest.TestCase):
         self.tb = None
 
     def test_001_t (self):
-        #src_data = np.loadtxt('r_data.csv').view(complex)
-        #expected_result = np.loadtxt('filter_test.csv').view(complex)
+        
+        # extract from the csv files
         with open('r_data.csv','rb') as f:
             reader1 = csv.reader(f)
             r_data = list(reader1)[0]
@@ -43,20 +43,42 @@ class qa_soqpsk_demod_cc (gr_unittest.TestCase):
             reader2 = csv.reader(g)
             filter_data = list(reader2)[0]
         
+        # testing with just zeros
+        #src_data = [0]*10000
+        expected_results = [0] * 10000
         
+        # testing with actual data
         src_data = [complex(i) for i in r_data]
-        expected_results = [complex(i) for i in filter_data]
+        print src_data[0],' is the first piece'
+        #expected_results = [complex(i) for i in filter_data]
         
-        src = blocks.vector_source_c (expected_results)
-        mult = soqpsk_demod_cc ()
-        dst = blocks.vector_sink_c ()
-        self.tb.connect (src, mult)
-        self.tb.connect (mult, dst)
+        
+        print 'data length: ',len(src_data)
+        print 'length of expected: ',len(expected_results)
+        
+        
+        src = blocks.vector_source_c (src_data) # declare source
+        demod = soqpsk_demod_cc () # declare the demod
+        dst = blocks.vector_sink_c () # declare the sink
+        
+        # Connections
+        self.tb.connect (src, demod) 
+        self.tb.connect (demod, dst)
+        
+        # Test run and check results
         self.tb.run ()
         result_data = dst.data ()
-        self.assertFloatTuplesAlmostEqual (expected_result, result_data, 6)
+        print 'length of results: ',len(result_data)
+        self.assertFloatTuplesAlmostEqual (expected_results[0:9999], result_data, 6)
 
 
 
 if __name__ == '__main__':
     gr_unittest.run(qa_soqpsk_demod_cc, "qa_soqpsk_demod_cc.xml")
+
+
+
+
+
+        #src_data = np.loadtxt('r_data.csv').view(complex)
+        #expected_result = np.loadtxt('filter_test.csv').view(complex)
